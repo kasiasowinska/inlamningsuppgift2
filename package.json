@@ -1,0 +1,22 @@
+{
+  "name": "inlamningsuppgift2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.22.0",
+    "cypress": "^13.11.0",
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div id="dashboard">
+        <h1>Välkommen till sidan för inloggade användare</h1>
+        <p>Här kan du byta lösenord</p>
+        <button id="changePasswordLink">Byt lösenord</button>
+        <button id="logoutButton">Logga ut</button>
+    </div>
+    
+    <div id="changePasswordForm" style="display: none;">
+        <h2>Byt lösenord</h2>
+        <label for="currentPassword">Nuvarande lösenord:</label>
+        <input type="password" id="currentPassword" name="currentPassword" required><br>
+        <label for="newPassword">Nytt lösenord:</label>
+        <input type="password" id="newPassword" name="newPassword" required><br>
+        <button id="changePasswordButton" type="button">Change Password</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

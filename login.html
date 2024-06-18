@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register</title>
+    <style>
+        .message {
+            display: none;
+            color: green;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1>Välkommen till hemsidan</h1>
+
+        <!-- Registreringsformulär -->
+        <div id="registerForm">
+            <label for="username">Användarnamn:</label>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Lösenord:</label>
+            <input type="password" id="password" name="password" required><br>
+            <button id="registerButton" type="button">Registrera</button>
+            <p id="registrationMessage" class="message">Användare registrerad</p>
+        </div>
+
+        <!-- Inloggningsformulär -->
+        <div id="loginForm">
+            <label for="loginUsername">Användarnamn:</label>
+            <input type="text" id="loginUsername" name="loginUsername" required><br>
+            <label for="loginPassword">Lösenord:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required><br>
+            <button id="loginButton" type="button">Logga in</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
